@@ -1,0 +1,83 @@
+body{
+    border: none;
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color:darkmagenta;
+    background-color: rgb(190, 186, 300);
+    background-repeat: no-repeat;
+}
+
+.middle{
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1{
+    text-shadow:4px 5px black;
+
+    font-size: 500%;
+}
+h2{
+    text-shadow:4px 5px black;
+    margin-top: -2%;
+    font-size: 500%;
+    text-align: center;
+}
+
+
+.btn button {
+    text-shadow:4px 5px black;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 200%;
+    border-radius: 3mm;
+    padding: 20px;
+    text-shadow: 2px 2px black;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.inc{
+    text-shadow:4px 5px black;
+    background-color: rgba(31, 31, 209, 0.911);
+    text-align: center;
+}
+
+.res{
+    text-shadow:4px 5px black;
+    background-color:rgba(172, 13, 13, 0.815);
+    text-align: center;
+    margin-left: 5%;
+}
+
+.btn button.inc:hover{
+    background-color: blue;
+  }
+.btn button.res:hover{
+    background-color: red;
+}  
+
+p{
+    margin-top: 10%;
+    text-shadow:1px 1px blue;
+    margin-left: 5%;
+    color:rgba(192, 23, 37);
+    font-size: 200%;
+}
+
+.restart-btn{
+    margin-left: 5%;
+    padding: 2mm;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    background-color:rgba(192, 23, 37, 0.699);
+}
+.restart-btn:hover{
+    background-color: rgba(134, 4, 15, 0.822);
+}
